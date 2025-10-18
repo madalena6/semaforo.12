@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semáforo Manual</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container text-center mt-5">
+    <h1 class="mb-4 text-light">🚦 Sistema de Semáforo Manual</h1>
+
+    <img id="semaforo" src="Imagens/desligado.png" alt="Semáforo" class="img-fluid semaforo">
+
+
+    <div class="mt-0">
+      <button class="btn btn-danger mx-1" onclick="ligarVermelho()">Vermelho</button>
+      <button class="btn btn-warning mx-1" onclick="ligarAmarelo()">Amarelo</button>
+      <button class="btn btn-success mx-1" onclick="ligarVerde()">Verde</button>
+      <button class="btn btn-secondary mx-1" onclick="desligar()">Desligar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
